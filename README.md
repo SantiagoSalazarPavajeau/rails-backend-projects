@@ -9,4 +9,6 @@ rails db:create
 rails db:migrate 
 rails db:seed
 
+rails g serializer Project title started description created_at updated_at
+
 ```
