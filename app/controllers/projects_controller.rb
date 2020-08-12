@@ -13,6 +13,13 @@ class ProjectsController < ApplicationController
         render json: ProjectSerializer.new(project).serialized_json
     end
 
+    def destroy
+        project = Project.find(params[:id])
+        project.delete
+        projects = Project.all
+        render json: ProjectSerializer.new(projects)
+    end
+
     private
 
     def project_params
