@@ -21,6 +21,22 @@ projects = [{
     title: 'Networking', 
     started: 'Today',
     description: 'Build with project requirements',
+}, {
+    title: 'React-Redux',
+    started: 'August',
+    description: 'Apply Redux Thunk for async connection to backend',
+}, {
+    title: 'JavaScript-Rails', 
+    started: 'May',
+    description: 'Build with project requirements',
+}, {
+    title: 'Ruby on Rails', 
+    started: 'March',
+    description: 'Build with project requirements',
+}, {
+    title: 'Sinatra', 
+    started: 'January',
+    description: 'Build with project requirements',
 }]
 
 projects.each do |project|
