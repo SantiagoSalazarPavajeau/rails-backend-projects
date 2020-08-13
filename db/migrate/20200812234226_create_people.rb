@@ -4,7 +4,7 @@ class CreatePeople < ActiveRecord::Migration[6.0]
       t.string :key
       t.string :value
       t.string :text
-      t.string :image
+      t.json :image
 
       t.timestamps
     end

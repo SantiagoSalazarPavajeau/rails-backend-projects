@@ -76,3 +76,24 @@ people.each do |person|
     Person.create(person)
 end
 
+tasks = [{ 
+    description: "Apply Redux Thunk for async connection to backend",
+    project_id: 1, 
+    person_id: 1, 
+    completed: true
+},{ 
+    description: "Add difficulty attribute, and other dashboard widgets", 
+    project_id: 1, 
+    person_id: 2, 
+    completed: false
+},{ 
+    description: "I dont belong in project 1",
+    project_id: 2, 
+    person_id: 3, 
+    completed: false
+}]
+
+tasks.each do |task|
+    Task.create(task)
+end
+

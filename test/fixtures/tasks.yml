@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyText
+  person: one
+  project: one
+  completed: false
+
+two:
+  description: MyText
+  person: two
+  project: two
+  completed: false
