@@ -9,6 +9,20 @@ class TasksController < ApplicationController
         render json: TaskSerializer.new(task).serialized_json
     end
 
+    def destroy
+        task = Task.find(params[:id])
+        task.delete
+        render json: TaskSerializer.new(task)
+    end
+
+    def update
+        task = Task.find(params[:id])
+        task.update(task_params)
+        render json: TaskSerializer.new(task)
+    end
+
+
+
     private
 
     def task_params
