@@ -44,31 +44,27 @@ projects.each do |project|
 end
 
 people = [{
-    key: 'Jenny Hess',
-    value: 'Jenny Hess',
-    text: 'Jenny Hess',
-    id: '1',
+    key: 'Me',
+    value: 'Me',
+    text: 'Me',
     image: { avatar: true, src: 'https://api.adorable.io/avatars/77' },
   },
   {
     key: 'Elliot Fu',
     value: 'Elliot Fu',
     text: 'Elliot Fu',
-    id: '2',
     image: { avatar: true, src: 'https://api.adorable.io/avatars/78' },
   },
   {
     key: 'Stevie Feliciano',
     value: 'Stevie Feliciano',
     text: 'Stevie Feliciano',
-    id: '3',
     image: { avatar: true, src: 'https://api.adorable.io/avatars/79' },
   },
   {
     key: 'Christian',
     value: 'Christian',
     text: 'Christian',
-    id: '4',
     image: { avatar: true, src: 'https://api.adorable.io/avatars/80' },
   }]
 
