@@ -1,9 +1,9 @@
 require 'json'
 class PersonSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :key, :value, :text, :id, :created_at, :updated_at
+  attributes :username, :image, :id
 
-  attribute :image do |object|
-    object.image
-  end
+  # attribute :image do |object|
+  #   object.image
+  # end
 end

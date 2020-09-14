@@ -44,28 +44,24 @@ projects.each do |project|
 end
 
 people = [{
-    key: 'Me',
-    value: 'Me',
-    text: 'Me',
-    image: { avatar: true, src: 'https://api.adorable.io/avatars/77' },
+    username: 'To be assigned:',
+    password: 'none',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Light_Bulb_or_Idea_Flat_Icon_Vector.svg/946px-Light_Bulb_or_Idea_Flat_Icon_Vector.svg.png'
   },
   {
-    key: 'Elliot Fu',
-    value: 'Elliot Fu',
-    text: 'Elliot Fu',
-    image: { avatar: true, src: 'https://api.adorable.io/avatars/78' },
+    username: 'Elliot',
+    password: '123',
+    image: 'https://api.adorable.io/avatars/78' ,
   },
   {
-    key: 'Stevie Feliciano',
-    value: 'Stevie Feliciano',
-    text: 'Stevie Feliciano',
-    image: { avatar: true, src: 'https://api.adorable.io/avatars/79' },
+    username: 'Stevie',
+    password: '321',
+    image: 'https://api.adorable.io/avatars/79',
   },
   {
-    key: 'Christian',
-    value: 'Christian',
-    text: 'Christian',
-    image: { avatar: true, src: 'https://api.adorable.io/avatars/80' },
+    username: 'Christian',
+    password: '111',
+    image: 'https://api.adorable.io/avatars/80',
   }]
 
 people.each do |person|
