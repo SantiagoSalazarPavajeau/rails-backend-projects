@@ -12,15 +12,15 @@ projects = [{
 }, {
     title: 'Technical Algorithms', 
     started: 'Today',
-    description: 'Build with project requirements',
+    description: 'Work on leetcode algos',
 }, {
     title: 'Java Spring', 
     started: 'Today',
-    description: 'Build with project requirements',
+    description: 'Build a backend with the Spring MVC framework',
 }, {
     title: 'Networking', 
     started: 'Today',
-    description: 'Build with project requirements',
+    description: 'Attend 2 events weekly',
 }, {
     title: 'React-Redux',
     started: 'August',
@@ -28,15 +28,15 @@ projects = [{
 }, {
     title: 'JavaScript-Rails', 
     started: 'May',
-    description: 'Build with project requirements',
+    description: 'Build a keyboard feature with bass sounds',
 }, {
     title: 'Ruby on Rails', 
     started: 'March',
-    description: 'Build with project requirements',
+    description: 'Merge front-end to React or Angular',
 }, {
     title: 'Sinatra', 
     started: 'January',
-    description: 'Build with project requirements',
+    description: 'Re-build with different backend and front-end',
 }]
 
 projects.each do |project|
@@ -49,7 +49,7 @@ people = [{
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Light_Bulb_or_Idea_Flat_Icon_Vector.svg/946px-Light_Bulb_or_Idea_Flat_Icon_Vector.svg.png'
   },
   {
-    username: 'Elliot',
+    username: 'Maya',
     password: '123',
     image: 'https://api.adorable.io/avatars/78' ,
   },

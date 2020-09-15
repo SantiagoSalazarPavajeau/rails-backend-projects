@@ -14,17 +14,18 @@ class PeopleController < ApplicationController
     end
 
     def destroy
-        person = Person.find(people_params[:id])
-        person.delete
+        person = Person.find(params[:id])
         person.tasks.each do |task|
-            task.person_id = 1
+            task.update(person_id: 1)
         end
+        person.delete
+        people = Person.all
         render json: PersonSerializer.new(people)
     end
 
     private
 
     def people_params
-        params.require(:project).permit(:username, :password, :image)
+        params.require(:person).permit(:username, :password, :image)
     end
 end
