@@ -3,7 +3,7 @@ class CreatePeople < ActiveRecord::Migration[6.0]
     create_table :people do |t|
       t.string :username
       t.string :password_digest
-      t.string :image
+      t.text :image
 
       t.timestamps
     end
