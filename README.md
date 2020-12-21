@@ -15,7 +15,7 @@ CLI commands to get the API app running:
 ```
 rails new rails-backend-projects --api --database=postgresql
 rails g resource Project title started description:text
-rails g resource Person key value text image
+rails g resource Person username password:digest image
 rails g resource Task description:text person:belongs_to project:belongs_to completed:boolean
 rails db:create 
 rails db:migrate 
