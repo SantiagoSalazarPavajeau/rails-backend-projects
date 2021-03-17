@@ -6,7 +6,7 @@ class PeopleController < ApplicationController
     end
 
     def create
-        image = "https://api.adorable.io/avatars/#{rand(100)}"
+        image = "https://api.hello-avatar.com/adorables/#{rand(100)}"
         new_user = Person.create(username: params[:user][:username], password: params[:user][:password], image: image)
         if new_user
             render json: PersonSerializer.new(new_user).serialized_json
